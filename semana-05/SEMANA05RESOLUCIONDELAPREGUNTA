@@ -1,0 +1,19 @@
+RESPUESTA A LA PREGUNTA :
+Resuelva la ecuación:
+𝑓(𝑥) = 𝑥.cos(𝑥) − 1 = 0
+(a) Use el método de bisección en el intervalo 0.6 a 0.7 hasta que ∣ 𝑓 𝑐 ∣< 10^−6.
+(b) Use el método de Newton–Raphson con 𝑥_0 = 0.5.
+(c) Use el método de la secante con 𝑥_0 = 0.5 , 𝑥_1 = 0.7
+
+Para cada método, indique:
+La raíz aproximada obtenida.
+El número de iteraciones necesarias.
+Comente: ¿Qué método converge más rápido? ¿por qué?
+
+El método que converge más rápido es Newton-Raphson, el cual demuestra ser la herramienta más eficiente para encontrar la solución de esta ecuación. Esta superioridad se debe a su naturaleza de convergencia cuadrática, 
+lo que significa que la precisión de la aproximación aumenta de forma acelerada en cada paso. Al utilizar la información de la derivada para calcular la pendiente de la función, el algoritmo logra "apuntar" con mayor 
+exactitud hacia la raíz, reduciendo el error de manera mucho más agresiva que los métodos que solo consideran valores puntuales.
+
+Por otro lado, el método de la bisección resulta ser el más lento debido a su convergencia lineal, ya que se limita a reducir el intervalo de búsqueda a la mitad de forma constante y repetitiva. Mientras que la bisección 
+requiere un esfuerzo computacional mayor para cerrar el margen de error, y el método de la secante utiliza una aproximación basada en dos puntos previos, Newton-Raphson aprovecha el comportamiento geométrico de la curva 
+local para alcanzar el resultado óptimo en la menor cantidad de pasos posibles.
