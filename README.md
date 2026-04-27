@@ -1,0 +1,1 @@
+# Curso-Metodos-Numericos-Unmsm-2026---unmsm
